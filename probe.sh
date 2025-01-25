@@ -3,7 +3,7 @@ MON="./getdns_server_mon -v -M --tls"
 
 declare -a servers=(
 "resolver-1.dnsprivacy.org.uk"
-"resolver-1.dnsprivacy.org.uk"
+"resolver-2.dnsprivacy.org.uk"
 )
   
 declare -a commands=(
