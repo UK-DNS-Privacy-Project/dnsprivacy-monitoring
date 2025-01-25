@@ -2,21 +2,8 @@
 MON="./getdns_server_mon -v -M --tls"
 
 declare -a servers=(
-"getdnsapi.net"
-"getdnsapi.net (port 443)"
-"dns.quad9.net"
-"1dot1dot1dot1.cloudflare-dns.com"
-"dns.google"
-"dns-unfiltered.adguard.com"
-"unicast.censurfridns.dk"
-"dot1.appliedprivacy.net"
-"dnspub.restena.lu"
-"dns.neutopia.org"
-"dnsotls.lab.nic.cl"
-"ibksturm.synology.me"
-"fdns1.dismail.de"
-"dot-de.blahdns.com"
-"ns0.fdn.fr"
+"resolver-1.dnsprivacy.org.uk"
+"resolver-1.dnsprivacy.org.uk"
 )
   
 declare -a commands=(
