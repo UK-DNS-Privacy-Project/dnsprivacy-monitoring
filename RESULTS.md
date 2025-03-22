@@ -1,6 +1,6 @@
 ## dnsprivacy.org monitoring results
  
-Latest run at:  Fri Mar 21 02:55:05 UTC 2025
+Latest run at:  Sat Mar 22 02:54:00 UTC 2025
  
 See [the output of the latest workflow for more details](https://github.com/dnsprivacy/dnsprivacy-monitoring/actions/workflows/dnsprivacy-monitoring.yml)
 
