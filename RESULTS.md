@@ -1,6 +1,6 @@
 ## dnsprivacy.org monitoring results
  
-Latest run at:  Tue Mar 25 02:55:34 UTC 2025
+Latest run at:  Wed Mar 26 02:55:12 UTC 2025
  
 See [the output of the latest workflow for more details](https://github.com/dnsprivacy/dnsprivacy-monitoring/actions/workflows/dnsprivacy-monitoring.yml)
 
@@ -8,8 +8,8 @@ See [the output of the latest workflow for more details](https://github.com/dnsp
 | ---  | --- |---  | ---         |---            | ---   |---     | ---      |---     | ---    |---      | ---    |---     | ---  |
 | resolver-1.dnsprivacy.org.uk  (v4) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :x:  |  :white_check_mark:  |  :x:  |
 | resolver-1.dnsprivacy.org.uk  (v6) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :x:  |  :white_check_mark:  |  :x:  |
-| resolver-2.dnsprivacy.org.uk  (v4) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :x:  |  :white_check_mark:  |  :x:  |
-| resolver-2.dnsprivacy.org.uk  (v6) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :x:  |  :white_check_mark:  |  :x:  |
+| resolver-2.dnsprivacy.org.uk  (v4) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :x:  |  :x:  |  :x:  |  :white_check_mark:  |  :x:  |
+| resolver-2.dnsprivacy.org.uk  (v6) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :x:  |  :x:  |  :x:  |  :white_check_mark:  |  :x:  |
 ####  All the following are tested over TLS connections:
 
  * **TLS** Does the server answer DNS queries over TLS on port 853 with no SNI sent?
