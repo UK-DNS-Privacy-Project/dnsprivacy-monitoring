@@ -1,15 +1,15 @@
 ## dnsprivacy.org monitoring results
  
-Latest run at:  Tue Apr 15 03:00:24 UTC 2025
+Latest run at:  Wed Apr 16 02:58:51 UTC 2025
  
 See [the output of the latest workflow for more details](https://github.com/dnsprivacy/dnsprivacy-monitoring/actions/workflows/dnsprivacy-monitoring.yml)
 
 |Server and IP version|TLS|TLS 443| Strict Name| Strict Name 443| Cert 0| Cert 14| QNAME min| RTT 250| DNSSEC| Keepalive| Padding| TLS 1.3| OOOR |
 | ---  | --- |---  | ---         |---            | ---   |---     | ---      |---     | ---    |---      | ---    |---     | ---  |
-| resolver-1.dnsprivacy.org.uk  (v4) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :x:  |  :white_check_mark:  |  :x:  |
-| resolver-1.dnsprivacy.org.uk  (v6) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :x:  |  :white_check_mark:  |  :x:  |
-| resolver-2.dnsprivacy.org.uk  (v4) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :x:  |  :white_check_mark:  |  :x:  |
-| resolver-2.dnsprivacy.org.uk  (v6) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :x:  |  :white_check_mark:  |  :x:  |
+| resolver-1.dnsprivacy.org.uk  (v4) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :x:  |  :white_check_mark:  |  :x:  |
+| resolver-1.dnsprivacy.org.uk  (v6) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :x:  |  :white_check_mark:  |  :x:  |
+| resolver-2.dnsprivacy.org.uk  (v4) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :x:  |  :white_check_mark:  |  :x:  |
+| resolver-2.dnsprivacy.org.uk  (v6) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :x:  |  :white_check_mark:  |  :x:  |
 ####  All the following are tested over TLS connections:
 
  * **TLS** Does the server answer DNS queries over TLS on port 853 with no SNI sent?
